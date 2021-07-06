@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Crimson Text', serif;
+}
+
+.top-banner{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 200px;
+}
+.top-left{
+    height: 500px;
+    width: 40%;
+    margin-left: 50px; 
+}
+.top-left h1{
+    margin: 40px;
+    font-size: 45px;
+}
+.top-left h3{
+    margin: 40px;
+}
+.top-left p{
+    margin: 40px; 
+    text-align: justify;
+    color: gray;
+}
+.top-left p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(tomato ,brown);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.top-right{
+    height: 500px;
+    width: 40%;
+    margin-left: 10%;
+  
+}
+.top-right img{
+    height: 500px;
+    width: 100%;
+}
+.english{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 200px;
+    background-position: right;
+}
+.english-left{
+    height: 500px;
+    width: 40%;
+    margin-left: 50px; 
+}
+.english-left img{
+    height: 500px;
+    width: 100%;
+}
+.english-right{
+    height: 500px;
+    width: 40%;
+    margin-left: 50px; 
+}
+.english-right h1{
+    margin: 40px;
+    font-size: 45px;
+}
+.english-right h3{
+    margin: 40px;
+}
+.english-right p{
+    margin: 40px; 
+    text-align: justify;
+    color: gray;
+}
+.english-right p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(tomato ,brown);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.exprience{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 200px;
+}
+.exprience h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.flex{
+    display: flex;
+}
+.el{
+    height: 400px;
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,brown);
+    border-image-slice: 1;
+}
+.el h1{
+    padding: 30px 20px;
+}
+.el h2{
+    padding: 0px 20px 10px;
+}
+.el p{
+    padding: 0px 20px;
+    text-align: justify;
+}
+.er{
+    height: 400px;
+    width: 40%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.er h1{
+    padding: 30px 20px;
+}
+.er h2{
+    padding: 0px 20px 10px;
+}
+.er p{
+    padding: 0px 20px;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
